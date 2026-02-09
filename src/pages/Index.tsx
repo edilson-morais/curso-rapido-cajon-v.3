@@ -1,8 +1,13 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import ModulesSection from "@/components/ModulesSection";
-import FeaturesSection from "@/components/FeaturesSection";
-import CTASection from "@/components/CTASection";
+import PainSection from "@/components/PainSection";
+import HouseAnalogySection from "@/components/HouseAnalogySection";
+import MethodSection from "@/components/MethodSection";
+import TimelineSection from "@/components/TimelineSection";
+import StorySection from "@/components/StorySection";
+import OfferSection from "@/components/OfferSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import UrgencySection from "@/components/UrgencySection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -10,9 +15,14 @@ const Index = () => {
     <main className="min-h-screen">
       <Navbar />
       <HeroSection />
-      <ModulesSection />
-      <FeaturesSection />
-      <CTASection />
+      <PainSection />
+      <HouseAnalogySection />
+      <MethodSection />
+      <TimelineSection />
+      <StorySection />
+      <OfferSection />
+      <TestimonialsSection />
+      <UrgencySection />
       <Footer />
     </main>
   );
